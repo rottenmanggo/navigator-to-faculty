@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Kelompok 4 | Struktur Diskrit II</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="info-box">
+  <h3>Navigasi Menuju FASILKOM</h3>
+  <p>Klik titik lokasi keberangkatan Anda (Lingkaran Biru) pada peta.</p>
+  <div id="result"></div>
+  <button id="resetBtn" class="reset-btn" onclick="fullReset()">Reset Peta</button>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
